@@ -364,6 +364,13 @@ header nav ul{
     background-color: var(--background-clr);
     border: none;
     font-size: var(--fs-normal);
+    color: var(--white-clr);
+}
+
+input:focus, textarea:focus, input:active, textarea:active {
+    border: 0;
+    border: none;
+    outline: none;
 }
 
 #contact-me button {
@@ -426,6 +433,10 @@ footer p {
 }
 @media only screen and (max-width: 640px) {
 
+    header nav{
+        padding: 30px 5px;
+    }
+
     #hero {
         padding: 10px 10px
     }
@@ -465,5 +476,15 @@ footer p {
 
     #skills .section-content .element {
         width: 100%
+    }
+
+    #contact-me form {
+        width: 95%;
+        padding: 10px 30px;
+    }
+
+    #contact-me form input, textarea {
+        padding: 15px;
+        border-radius: 10px;
     }
 }
