@@ -434,8 +434,9 @@ footer p {
 @media only screen and (max-width: 640px) {
 
     header nav{
+        display: none;
         padding: 30px 5px;
-        
+
     }
 
     #hero {
