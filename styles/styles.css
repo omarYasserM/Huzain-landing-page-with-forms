@@ -436,6 +436,12 @@ footer p {
         flex-wrap: wrap;
     }
 
+    #about-me .data {
+        column-gap: 3px;
+        /* font-size: 0.8rem; */
+        grid-template-columns: 1fr;
+    }
+
     #about-me .section-content {
         display: grid;
         grid-template-columns: 1fr;
