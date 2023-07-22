@@ -386,3 +386,42 @@ footer p {
     margin: auto;
     text-align: center;
 }
+
+/* Media queries ^^ */
+@media only screen and (max-width: 1500px) {
+    section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #about-me .section-content {
+        grid-template-columns: 1fr 2.5fr;
+        height: 500px;
+    }
+
+}
+@media only screen and (max-width: 750px) {
+
+    #about-me .section-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media only screen and (max-width: 640px) {
+    #skills .section-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
