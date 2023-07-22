@@ -46,9 +46,6 @@ body {
 
 section {
     padding: 50px 22%;
-}
-
-section {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -432,10 +429,13 @@ footer p {
 }
 @media only screen and (max-width: 640px) {
 
+    section {
+        padding: 15px 20px;
+    }
+
     header nav{
         display: none;
         padding: 30px 5px;
-
     }
 
     #hero {
