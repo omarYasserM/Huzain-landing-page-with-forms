@@ -400,12 +400,10 @@ footer p {
     section {
         padding-left: 10%;
         padding-right: 10%;
-        /* height: min-content !important; */
     }
 
     #about-me .section-content {
         grid-template-columns: 1fr 2.5fr;
-        height: 500px;
     }
 
 }
