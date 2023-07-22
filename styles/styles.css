@@ -445,12 +445,14 @@ footer p {
     }
 
     #skills .section-content {
+        margin: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         flex-wrap: wrap;
+        height: unset;
     }
 
     #skills .section-content .element {
-        width: min-content;
+        width: 100%
     }
 }
