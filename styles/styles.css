@@ -419,6 +419,10 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 
+    #projects .section-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 @media only screen and (max-width: 640px) {
 
@@ -427,6 +431,7 @@ footer p {
     }
 
     #hero .contacts {
+        gap: 20px;
         display: flex;
         flex-wrap: wrap;
     }
