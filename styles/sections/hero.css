@@ -1,0 +1,81 @@
+#hero {
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 10px 22%;
+    gap: 40px;
+}
+
+#hero .introduction, #hero .contacts, #hero > p{
+    margin: 0px auto;
+}
+
+#hero .introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+#hero .introduction h1 {
+    font-size: var(--fs-verylarge);
+    font-weight: bold;
+}
+
+#hero .introduction p {
+    font-size: var(--fs-medium);
+}
+
+#hero .introduction span {
+    color: var(--accent-clr)
+}
+
+#hero .contacts {
+    display:  flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+}
+
+#hero .contacts a {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#hero .contacts a object {
+    max-width: 30px;
+    aspect-ratio: 1;
+    margin: 10px auto;
+    color: var(--container-clr);
+}
+
+#hero .contacts a h1 {
+    margin: auto;
+    color: #242424;
+    color: var(--lead-clr);
+    font-weight: bold;
+    transition: color ease-in-out .2s;
+}
+
+#hero .contacts a h1:hover {
+    color: var(--accent-clr);
+}
+
+#hero > p {
+    margin-top: 10px;
+    color: var(--lead-clr);
+    font-size: var(--fs-medium);
+}
+
+#hero > p span {
+    padding: 10px 10px;
+    /* background-color: var(--accent-clr); */
+    border: 2px solid var(--accent-clr);
+    border-radius: 10px;
+    color: var(--white-clr)
+}
+
+#hero p:hover {
+    content: "retretd"
+}

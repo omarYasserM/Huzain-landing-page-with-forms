@@ -1,0 +1,36 @@
+#skills {
+    margin: 50px 0;
+}
+
+#skills .section-content {
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+#skills .element {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+#skills .element h1 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#skills .element p {
+    font-weight: 1;
+    color: var(--lead-clr);
+}
+
+#skills object {
+    margin: 0 auto;
+    width: 50px;
+    aspect-ratio: 1;
+}

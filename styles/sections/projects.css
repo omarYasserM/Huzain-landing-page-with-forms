@@ -1,0 +1,17 @@
+#projects .element {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: var(--container-clr);
+}
+
+#projects .section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+#projects > p {
+    text-align: center;
+    font-size: var(--fs-medium);
+    font-weight: bold;
+}

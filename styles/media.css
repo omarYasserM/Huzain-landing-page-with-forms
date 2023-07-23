@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1500px) {
+    section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 750px) {
+
+    #projects .section-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media only screen and (max-width: 640px) {
+
+    section {
+        padding: 15px 20px;
+    }
+
+    header nav{
+        display: none;
+        padding: 30px 5px;
+    }
+
+    #hero {
+        padding: 10px 10px
+    }
+
+    #hero .contacts {
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #about-me .data {
+        column-gap: 3px;
+        /* font-size: 0.8rem; */
+        grid-template-columns: 1fr;
+    }
+
+    #about-me .section-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* flex-direction: column; */
+        height: min-content;
+    }
+
+    #about-me .content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #skills .section-content {
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        height: unset;
+    }
+
+    #skills .section-content .element {
+        width: 100%
+    }
+
+    #contact-me form {
+        width: 95%;
+        padding: 10px 30px;
+    }
+
+    #contact-me form input, textarea {
+        padding: 15px;
+        border-radius: 10px;
+    }
+}

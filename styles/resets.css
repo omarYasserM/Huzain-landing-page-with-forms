@@ -1,0 +1,19 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+    scroll-behavior: smooth;
+}
+
+a, a:visited, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+
+input:focus, textarea:focus, input:active, textarea:active {
+    border: 0;
+    border: none;
+    outline: none;
+}

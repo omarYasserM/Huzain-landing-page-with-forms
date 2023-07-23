@@ -1,0 +1,15 @@
+/* Resets */
+@import url(resets.css);
+
+/* Styling */
+@import url(styles.css);
+
+/* Sections */
+@import url(sections/hero.css);
+@import url(sections/about-me.css);
+@import url(sections/skills.css);
+@import url(sections/projects.css);
+@import url(sections/contact-me.css);
+
+/* Media Queries */
+@import url(media.css);

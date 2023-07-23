@@ -1,0 +1,7 @@
+header nav ul a {
+    transition: color ease-in-out 0.1s;
+}
+
+header nav ul a:hover {
+    color: var(--accent-clr);
+}
