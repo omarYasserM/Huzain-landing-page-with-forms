@@ -39,14 +39,14 @@ section {
 
 section .section-header p {
     font-family: 'Indie Flower';
-    font-size: var(--fs-normal);
+    font-size: var(--fs-medium);
     margin-bottom: -5px;
     color: var(--lead-clr);
     font-weight: bold;
 }
 
 section .section-header h1 {
-    font-size: var(--fs-large);
+    font-size: var(--fs-verylarge);
     font-weight: bold;
 }
 
@@ -64,8 +64,17 @@ header {
     width: 100%;
 }
 
-header nav {
+header {
     padding: 40px 22%;
+    transition: all ease-in-out .3s;
+    transition: padding ease-in-out .3s;
+}
+
+.stickyheader {
+    padding: 25px 22%;
+    position: fixed;
+    top: 0;
+    background-color: var(--lead-clr);
 }
 
 header nav ul{
